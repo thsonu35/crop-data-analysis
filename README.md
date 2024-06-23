@@ -29,11 +29,18 @@ This project is a React-based application that displays agricultural data, speci
 1. Clone the repository:
 
 
-git clone https://github.com/your-username/crop-data-analysis.git
+git clone https://github.com/thsonu35/crop-data-analysis.git
 cd crop-data-analysis
 yarn add @mantine/core react-router-dom
 yarn install
 yarn start
+
+
+## for crop data 
+http://localhost:3000/
+
+# for Average
+http://localhost:3000/Average
 
 
 ## Project Structure
@@ -55,6 +62,12 @@ crop-data-analysis/
 ├── package.json
 ├── README.md
 └── ...
+
+## Screenshots
+
+![image](https://github.com/thsonu35/crop-data-analysis/assets/85925090/2703e4c5-2beb-4c0b-bbd5-fd146024e429)
+
+![image](https://github.com/thsonu35/crop-data-analysis/assets/85925090/f2899ef1-92b2-4b26-9644-36d8a49bdc23)
 
 
 ## Usage
