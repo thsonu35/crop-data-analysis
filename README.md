@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project is a React-based application that displays agricultural data, specifically crop yields and cultivation areas in India between 1950 and 2020. The application provides two main views: average crop data and maximum/minimum crop production data.
 
 ## Features
@@ -85,3 +86,7 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 Author: Sohan Singh Thakur
 Email: thsonu350@gmail.com
 GitHub: Thsonu35
+=======
+# crop-data-analysis
+This project is a React-based application that displays agricultural data, specifically crop yields and cultivation areas in India between 1950 and 2020. The application provides two main views: average crop data and maximum/minimum crop production data.
+>>>>>>> debb0e2998a3c521b0a4b2afc52ab55e93eb7e2d
