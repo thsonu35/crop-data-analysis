@@ -1,22 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import CropData from './pages/CropData/CropData';
+import AverageData from './pages/avgData/AverageData';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <div>
+
+      <Router>
+        <Routes>
+      <Route path="/" element={<CropData />} />
+
+      
+          <Route path="/Average" element={<AverageData />} />
+          </Routes>
+          </Router>
+        
+       
+
+        
+          {/* Other routes can be defined here if needed */}
+      </div>
+        
       </header>
     </div>
   );
